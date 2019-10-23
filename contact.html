@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>The Gym</title>
+</head>
+
+<body>
+    <!--Navbar Container-->
+    <div class="container">
+        <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+            <!--Navbar Header-->
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">The Gym</a>
+            </div>
+            <!--Navbar toggler button (removed from Navbar header to allow prefered positioning)-->
+            <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-menu"
+                aria-expanded="false" aria-lable="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Navbar menu items (ml-auto moved them to the right)-->
+            <div id="main-menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+    <!--Add image-->
+    <div class="container">
+        <img src="assets/images/image2.jpg" class="d-block w-100" alt="Image2">
+    </div>
+    <!---overlay text on image - Contact us-->
+    <div class="text-box overlay">
+        <h3>Contact Us</h3>
+    </div>
+    <!--Embedd google map-->
+    <div class="container">
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="600" height="500" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=cw98gh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                    scrolling="no" marginheight="0" marginwidth="0">
+                </iframe>
+                <a href="https://usave.co.uk">usave</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Get in Touch-->
+
+    <!--Address-->
+    <!--Phone and Email-->
+    <!--Opening Times-->
+
+    <section class="container">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">Get in touch</h3>
+                <h5 class="uppercase text-center">We are only a phone call away. We are a very responsive company who
+                    like to deal with enquires promptly.</h5>
+                <div class="center-form">
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                        required />
+                    <input type="phone" name="phone" id="phonenumber" class="form-control" placeholder="Phone Number"
+                        required />
+                    <textarea rows="5" name="enquiry" id="enquiry" class="form-control" placeholder="Enquiry"
+                        required></textarea>
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button type="submit" class="btn btn-secondary">Submit Enquiry</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+    <!--Footer - Social Media links-->
+    <footer>
+        <div class="container bg-dark">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h5>Phone Number</h5>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Opening Hours</h5>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 4 Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

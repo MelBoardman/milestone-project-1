@@ -1,0 +1,59 @@
+/*----------Colors----------------*/
+
+.container {
+    background-color:#343a40;
+    color:#fff;
+}
+
+/*-----------Navbar-------------*/
+.navbar-nav { 
+    text-align: right;
+    float: right;
+}
+.navbar-toggler{
+    float: right;
+}
+/*----------image carousel-----*/
+.overlay {
+    position:absolute;
+    z-index:1;
+    top: 100px;
+    text-align: bottom;
+    
+}
+
+/*---------Footer-----*/
+footer {
+    color: #fff;
+    text-align: center;
+}
+
+.social-links {
+    font-size: 32px;
+}
+  
+
+.gallery-img img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+.gallery-img img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+} 
+
+/* Embedded map in Contacts */
+.mapouter{
+    position:relative;
+    text-align:center;
+    height:500px;
+    width:600px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;width:600px;
+}
