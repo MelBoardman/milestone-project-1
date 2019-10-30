@@ -73,6 +73,22 @@ footer {
     color: rgb(2, 2, 114);
 }
 
+/*--------Membership-----------*/
+.membership {
+    text-align: center; 
+}    
+.membership-button {
+    visibility: hidden;
+}
+
+.membership:hover {
+    text-align: center;
+    background-color: aqua;
+    color:#000;
+    .membership-button {
+        visibility: visible;
+    }
+}
 
 .social-links {
     font-size: 32px;
