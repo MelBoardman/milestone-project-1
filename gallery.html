@@ -10,8 +10,10 @@
         type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
     <!--Fancybox-->
     <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>The Gym</title>
@@ -19,11 +21,11 @@
 
 <body>
     <!--Navbar Container-->
-    <div class="container">
+    <div class="container-fluid">
         <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
             <!--Navbar Header-->
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">The Gym</a>
+                <a href="index.html" class="navbar-brand">The Gym</a>
             </div>
             <!--Navbar toggler button (removed from Navbar header to allow prefered positioning)-->
             <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-menu"
@@ -47,22 +49,36 @@
         <a  href="assets/images/image2.jpg"><img src="assets/images/image2.jpg"></a>
         <a data-fancybox="gallery" href="assets/images/image3.jpg"><img src="assets/images/image3.jpg"></a>
     </div>-->
-    <div class="container gallery-img">
-        <a data-fancybox="gallery" href="assets/images/image2.jpg">
-            <img src="assets/images/image2.jpg" alt="Spin">
-        </a>
+    <div class="container-fluid">
+        <div class="container gallery-img">
+            <a data-fancybox="gallery" href="assets/images/image2.jpg">
+                <img src="assets/images/image2.jpg" alt="Spin">
+            </a>
+        </div>
+        <div class="container gallery-img">
+            <a data-fancybox="gallery" href="assets/images/image3.jpg">
+                <img src="assets/images/image3.jpg" alt="Spin">
+            </a>
+        </div>
+        <div class="container gallery-img">
+            <a data-fancybox="gallery" href="assets/images/image4.jpg">
+                <img src="assets/images/image4.jpg" alt="Spin">
+            </a>
+        </div>
     </div>
 
 
     <!--Footer - Social Media links-->
     <footer>
-        <div class="container bg-dark">
+        <div class="container-fluid bg-dark">
             <div class="row">
                 <div class="col-sm-4">
-                    <h5>Phone Number</h5>
+                    <h6>Phone Number</h6>
+                    <p>02020 202020 </p>
                 </div>
                 <div class="col-sm-4">
-                    <h5>Opening Hours</h5>
+                    <h6>Opening Hours</h6>
+                    <p>Mon-Sat: 06.00 - 22:00 Sun: 07.00 - 20:00</p>
                 </div>
                 <div class="col-sm-4">
                     <ul class="list-inline social-links">
@@ -75,10 +91,7 @@
                 </div>
             </div>
         </div>
-    </footer>
-
-
-    <!-- Bootstrap 4 Scripts -->
+    </footer <!-- Bootstrap 4 Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

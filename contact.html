@@ -9,17 +9,18 @@
         type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>The Gym</title>
 </head>
 
 <body>
     <!--Navbar Container-->
-    <div class="container">
+    <div class="container-fluid">
         <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
             <!--Navbar Header-->
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">The Gym</a>
+                <a href="index.html" class="navbar-brand">The Gym</a>
             </div>
             <!--Navbar toggler button (removed from Navbar header to allow prefered positioning)-->
             <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-menu"
@@ -39,33 +40,55 @@
         </nav>
     </div>
     <!--Add image-->
-    <div class="container">
-        <img src="assets/images/image2.jpg" class="d-block w-100" alt="Image2">
+    <div class="container-fluid">
+        <img src="assets/images/image7.jpg" class="d-block w-100" alt="Image7">
     </div>
     <!---overlay text on image - Contact us-->
-    <div class="text-box overlay">
-        <h3>Contact Us</h3>
+    <div class="contact-overlay">
+        <h1>Contact Us</h1>
     </div>
     <!--Embedd google map-->
-    <div class="container">
-        <div class="mapouter">
-            <div class="gmap_canvas">
-                <iframe width="600" height="500" id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=cw98gh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                    scrolling="no" marginheight="0" marginwidth="0">
-                </iframe>
-                <a href="https://usave.co.uk">usave</a>
+    <iframe width='100%' height='440px' id='mapcanvas'
+        src='https://maps.google.com/maps?q=M8%208DY&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed'
+        frameborder='0' scrolling='no' marginheight='0' marginwidth='0'>
+        <div class="zxos8_gm">
+            <a rel="bookmark" href="https://fancy.com/shop/onecompare">here</a>
+        </div>
+        <div style='overflow:hidden;'>
+            <div id='gmap_canvas' style='height:440px;width:100%;'>
+            </div>
+        </div>
+        <div>
+            <small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google Map</a></small>
+        </div>
+    </iframe>
+    <hr>
+    <!--Get in Touch-->
+    <!--Address Phone and Email-->
+    <div class="contact-details container-fluid bg-dark">
+        <div class="row">
+            <div class="col-sm-3">
+                <h6>Address:</h6>
+                <p>208-218, Bury New Road, MANCHESTER M8 8DY</p>
+            </div>
+            <div class="col-sm-3">
+                <h6>Phone Number:</h6>
+                <p>02020 202020 </p>
+            </div>
+            <div class="col-sm-3">
+                <h6>Email:</h6>
+                <p>email@email.com </p>
+            </div>
+            <div class="col-sm-3">
+                <h6>Opening Hours:</h6>
+                <p>Mon-Sat: 06.00 - 22:00 Sun: 07.00 - 20:00</p>
             </div>
         </div>
     </div>
-
-    <!--Get in Touch-->
-
-    <!--Address-->
-    <!--Phone and Email-->
+    <hr>
     <!--Opening Times-->
 
-    <section class="container">
+    <section class="contact-details container-fluid">
         <div class="row bg-color-contact">
             <div class="col">
                 <h3 class="contact-heading uppercase text-center">Get in touch</h3>
@@ -93,13 +116,15 @@
     </section>
     <!--Footer - Social Media links-->
     <footer>
-        <div class="container bg-dark">
+        <div class="container-fluid container-footer">
             <div class="row">
                 <div class="col-sm-4">
-                    <h5>Phone Number</h5>
+                    <h6>Phone Number</h6>
+                    <p>02020 202020 </p>
                 </div>
                 <div class="col-sm-4">
-                    <h5>Opening Hours</h5>
+                    <h6>Opening Hours</h6>
+                    <p>Mon-Sat: 06.00 - 22:00 Sun: 07.00 - 20:00</p>
                 </div>
                 <div class="col-sm-4">
                     <ul class="list-inline social-links">
