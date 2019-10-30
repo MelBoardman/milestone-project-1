@@ -53,20 +53,39 @@ STRATEGY (WHAT WILL BE ON EACH PAGE AND HOW TO NAVIGATE THE SITE)
 
 Navigation – Nav bar with links to all pages on each page.
 
-
-
-
-
-
-
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general 
-structure:
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+**Add planning doc and wireframes to git repository. Make note here of file name and location.
 
 FEATURES
+    Navbar
+        Allow users to navigate to each page of the site. This is the same on each page aside from the active page setting.  
 
+    Home
+        Image carousel
+        https://getbootstrap.com/docs/4.3/components/carousel/ (with indicators)
+        button link to Gallery page - This button is not a primary focus of this page and therefore is smaller and is the same colour as the background until hovered over.  
+        Gym Info
+        find out more button
+        Contact info
+        Contact us button - links to the Contact page.
+    
+    About
+        Membership Options
+            To provide the user with the different options of membership
+            Highlight when hovered and provide link to popup contact form.
+
+    Gallery
+        Attrative Gym images to motivate and encourage exisiting and new members
+        Use Fancy box to make attactive display. 
+        **not yet implemented, add more info when functioning. 
+
+    Contact
+        Gym image with contact us over it.
+        emmbedded google map.
+        contact details.
+        Contact form.
+
+
+Contents
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -81,6 +100,13 @@ JQuery
 The project uses JQuery to simplify DOM manipulation.
 
 TESTING
+
+**Create validation plan spreadsheet to go through each feature/function and expected outcome. Test in each different screensize and complete. 
+
+Add validation spreadsheet to GIT Repository.
+
+click on each link from the nav bar from each page to ensure the correct page was displyed.
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
