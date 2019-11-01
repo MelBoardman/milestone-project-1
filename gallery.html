@@ -5,23 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--bootstrap--->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-    <!--Fancybox-->
-    <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
-
-
     <link rel="stylesheet" href="assets/css/style.css">
     <title>The Gym</title>
 </head>
 
 <body>
-    <!--Navbar Container-->
-    <div class="container-fluid">
+    <header>
         <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
             <!--Navbar Header-->
             <div class="navbar-header">
@@ -37,36 +31,36 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
-
         </nav>
-    </div>
-    <!--Add fancybox image
+    </header>
+    <main>
+        <!--Add fancybox image
     <div class="container">
         <a  href="assets/images/image2.jpg"><img src="assets/images/image2.jpg"></a>
         <a data-fancybox="gallery" href="assets/images/image3.jpg"><img src="assets/images/image3.jpg"></a>
     </div>-->
-    <div class="container-fluid">
-        <div class="container gallery-img">
-            <a data-fancybox="gallery" href="assets/images/image2.jpg">
-                <img src="assets/images/image2.jpg" alt="Spin">
-            </a>
+        <div class="container-fluid">
+            <div class="container gallery-img">
+                <a data-fancybox="gallery" href="assets/images/image2.jpg">
+                    <img src="assets/images/image2.jpg" alt="Spin">
+                </a>
+            </div>
+            <div class="container gallery-img">
+                <a data-fancybox="gallery" href="assets/images/image3.jpg">
+                    <img src="assets/images/image3.jpg" alt="Spin">
+                </a>
+            </div>
+            <div class="container gallery-img">
+                <a data-fancybox="gallery" href="assets/images/image4.jpg">
+                    <img src="assets/images/image4.jpg" alt="Spin">
+                </a>
+            </div>
         </div>
-        <div class="container gallery-img">
-            <a data-fancybox="gallery" href="assets/images/image3.jpg">
-                <img src="assets/images/image3.jpg" alt="Spin">
-            </a>
-        </div>
-        <div class="container gallery-img">
-            <a data-fancybox="gallery" href="assets/images/image4.jpg">
-                <img src="assets/images/image4.jpg" alt="Spin">
-            </a>
-        </div>
-    </div>
-
+    </main>
 
     <!--Footer - Social Media links-->
     <footer>

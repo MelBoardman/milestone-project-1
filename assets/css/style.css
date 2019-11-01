@@ -1,6 +1,8 @@
 /*----------Colors----------------*/
 body {
     background-color:#343a40; 
+    color:#fff;
+    font-family: 'Rubik', sans-serif;
 }
 .container {
     /*background-color:#343a40;*/
@@ -17,6 +19,10 @@ body {
     padding-right: 16px; 
   
 }
+footer {
+    color:#fff;
+    font-family: 'Rubik', sans-serif;
+}
 
 /*-----------Navbar-------------*/
 .navbar-nav { 
@@ -27,22 +33,37 @@ body {
 .navbar-toggler{
     float: right;
 }
+
+
 /*------------Contact Us----------------*/
 .contact-overlay {
-    font-size: 50px;
-    position:absolute;
+    position:relative;
     z-index:1;
     top: 100px;
     text-align: bottom;
-    padding-left:30px;   
+    padding-left:30px; 
+    color:#000;  
 }
 
 
 .contact-details {
     padding-top: 16px;
-    padding-bottom: 16px;
+    padding-bottom: 30px;
 }
 
+.contact-info {
+    text-align: center;
+}
+.contact-element {
+    padding-bottom:0px;
+}
+
+.input-spacing {
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /*-----------Gallery--------------*/
 .gallery-btn {
@@ -69,9 +90,7 @@ footer {
     font-size: 12px;
     padding:20px;
 }
-.container-footer {
-    color: rgb(2, 2, 114);
-}
+
 
 .social-links {
     font-size: 32px;
@@ -109,11 +128,11 @@ footer {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 } 
 
-/* Embedded map in Contacts */
+/* Embedded map*/
 #mapcanvas {
     background-color:#343a40; 
-    padding-left:16px;
-    padding-right: 16px; 
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-left:0;
+    padding-right: 0; 
+    padding-top: 0;
+    padding-bottom: 0;
 }

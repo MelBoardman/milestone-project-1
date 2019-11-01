@@ -15,8 +15,7 @@
 </head>
 
 <body>
-    <!--Navbar Container-->
-    <div class="container-fluid">
+    <header>
         <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
             <!--Navbar Header-->
             <div class="navbar-header">
@@ -36,84 +35,99 @@
                     <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
-
         </nav>
-    </div>
-    <!--Add image-->
-    <div class="container-fluid">
-        <img src="assets/images/image7.jpg" class="d-block w-100" alt="Image7">
-    </div>
-    <!---overlay text on image - Contact us-->
-    <div class="contact-overlay">
-        <h1>Contact Us</h1>
-    </div>
-    <!--Embedd google map-->
-    <iframe width='100%' height='440px' id='mapcanvas'
-        src='https://maps.google.com/maps?q=M8%208DY&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed'
-        frameborder='0' scrolling='no' marginheight='0' marginwidth='0'>
-        <div class="zxos8_gm">
-            <a rel="bookmark" href="https://fancy.com/shop/onecompare">here</a>
-        </div>
-        <div style='overflow:hidden;'>
-            <div id='gmap_canvas' style='height:440px;width:100%;'>
-            </div>
-        </div>
-        <div>
-            <small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google Map</a></small>
-        </div>
-    </iframe>
-    <hr>
-    <!--Get in Touch-->
-    <!--Address Phone and Email-->
-    <div class="contact-details container-fluid bg-dark">
-        <div class="row">
-            <div class="col-sm-3">
-                <h6>Address:</h6>
-                <p>208-218, Bury New Road, MANCHESTER M8 8DY</p>
-            </div>
-            <div class="col-sm-3">
-                <h6>Phone Number:</h6>
-                <p>02020 202020 </p>
-            </div>
-            <div class="col-sm-3">
-                <h6>Email:</h6>
-                <p>email@email.com </p>
-            </div>
-            <div class="col-sm-3">
-                <h6>Opening Hours:</h6>
-                <p>Mon-Sat: 06.00 - 22:00 Sun: 07.00 - 20:00</p>
-            </div>
-        </div>
-    </div>
-    <hr>
-    <!--Opening Times-->
+    </header>
+    <main>
+        <section>
+            <!--overlay text on image - Contact us
+            <div class="contact-overlay">
+                <h3>Contact Us</h3>
+            </div>-->
+            <img src="assets/images/image7.jpg" class="d-block w-100" alt="Image7">
 
-    <section class="contact-details container-fluid">
-        <div class="row bg-color-contact">
-            <div class="col">
+        </section>
+        <hr>
+        <!--Embedd google map-->
+        <section>
+            <iframe width='100%' height='440px' id='mapcanvas'
+                src='https://maps.google.com/maps?q=M8%208DY&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed'
+                frameborder='0' scrolling='no' marginheight='0' marginwidth='0'>
+                <div class="zxos8_gm">
+                    <a rel="bookmark" href="https://fancy.com/shop/onecompare">here</a>
+                </div>
+                <div style='overflow:hidden;'>
+                    <div id='gmap_canvas' style='height:440px;width:100%;'>
+                    </div>
+                </div>
+                <div>
+                    <small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google Map</a></small>
+                </div>
+            </iframe>
+        </section>
+        <hr>
+        <!--Get in Touch-->
+        <!--Address Phone and Email-->
+        <section>
+            <div class="container-fluid contact-details">
                 <h3 class="contact-heading uppercase text-center">Get in touch</h3>
-                <h5 class="uppercase text-center">We are only a phone call away. We are a very responsive company who
+                <h5 class="uppercase text-center">We are only a phone call away. We are a very responsive company
+                    who
                     like to deal with enquires promptly.</h5>
-                <div class="center-form">
-                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
-                        required />
-                    <input type="phone" name="phone" id="phonenumber" class="form-control" placeholder="Phone Number"
-                        required />
-                    <textarea rows="5" name="enquiry" id="enquiry" class="form-control" placeholder="Enquiry"
-                        required></textarea>
-                    <div class="form-row text-center">
-                        <div class="col">
-                            <button type="submit" class="btn btn-secondary">Submit Enquiry</button>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-6 contact-info">
+                    <div class="contact-element">
+                        <h6>Address:</h6>
+                        <p>208-218, Bury New Road, MANCHESTER M8 8DY</p>
+                    </div>
+                    <hr>
+                    <div class="contact-element">
+                        <h6>Phone Number:</h6>
+                        <p>02020 202020 </p>
+                    </div>
+                    <hr>
+                    <div class="contact-element">
+                        <h6>Email:</h6>
+                        <p>email@email.com </p>
+                    </div>
+                    <hr>
+                    <div class="contact-element">
+                        <h6>Opening Hours:</h6>
+                        <p>Mon-Sat: 06.00 - 22:00 Sun: 07.00 - 20:00</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 bg-color-contact container-fluid">
+                    <div class="center-form">
+                        <div class="input-spacing">
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
+                                required />
+                        </div>
+                        <div class="input-spacing">
+                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                                required />
+                        </div>
+                        <div class="input-spacing">
+                            <input type="phone" name="phone" id="phonenumber" class="form-control"
+                                placeholder="Phone Number" required />
+                        </div>
+                        <div class="input-spacing">
+                            <textarea rows="5" name="enquiry" id="enquiry" class="form-control" placeholder="Enquiry"
+                                required></textarea>
+                        </div>
+                        <div class="form-row text-center input-spacing">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Submit Enquiry</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        </div>
-
-    </section>
+        </section>
+        <hr>
+    </main>
     <!--Footer - Social Media links-->
     <footer>
         <div class="container-fluid container-footer">
