@@ -23,7 +23,9 @@ footer {
     color:#fff;
     font-family: 'Rubik', sans-serif;
 }
-
+.center-text {
+    text-align: center;
+}
 /*-----------Navbar-------------*/
 .navbar-nav { 
     text-align: right;
