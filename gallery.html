@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>The Gym</title>
 </head>
@@ -21,45 +22,49 @@
             <div class="navbar-header">
                 <a href="index.html" class="navbar-brand">The Gym</a>
             </div>
-            <!--Navbar toggler button (removed from Navbar header to allow prefered positioning)-->
+            <!--Navbar toggler button-->
             <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-menu"
                 aria-expanded="false" aria-lable="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!--Navbar menu items (ml-auto moved them to the right)-->
+            <!--Navbar menu items-->
             <div id="main-menu" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <!--Add fancybox image
-    <div class="container">
-        <a  href="assets/images/image2.jpg"><img src="assets/images/image2.jpg"></a>
-        <a data-fancybox="gallery" href="assets/images/image3.jpg"><img src="assets/images/image3.jpg"></a>
-    </div>-->
-        <div class="container-fluid">
+        <!--fancybox images -->
+        <section>
             <div class="container gallery-img">
                 <a data-fancybox="gallery" href="assets/images/image2.jpg">
                     <img src="assets/images/image2.jpg" alt="Spin">
                 </a>
-            </div>
-            <div class="container gallery-img">
                 <a data-fancybox="gallery" href="assets/images/image3.jpg">
                     <img src="assets/images/image3.jpg" alt="Spin">
                 </a>
-            </div>
-            <div class="container gallery-img">
                 <a data-fancybox="gallery" href="assets/images/image4.jpg">
                     <img src="assets/images/image4.jpg" alt="Spin">
                 </a>
+
             </div>
-        </div>
+            <div class="container gallery-img">
+                <a data-fancybox="gallery" href="assets/images/image5.jpg">
+                    <img src="assets/images/image5.jpg" alt="Spin">
+                </a>
+                <a data-fancybox="gallery" href="assets/images/image6.jpg">
+                    <img src="assets/images/image6.jpg" alt="Spin">
+                </a>
+                <a data-fancybox="gallery" href="assets/images/image7.jpg">
+                    <img src="assets/images/image7.jpg" alt="Spin">
+                </a>
+            </div>
+        </section>
     </main>
 
     <!--Footer - Social Media links-->
@@ -75,17 +80,22 @@
                     <p>Mon-Sat: 06.00 - 22:00 Sun: 07.00 - 20:00</p>
                 </div>
                 <div class="col-sm-4">
-                    <<ul class="list-inline social-links">
-                        <li class="list-inline-item"><a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com"><i
+                                    class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
-                        <li class="list-inline-item"><a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <li class="list-inline-item"><a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com"><i
+                                    class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <li class="list-inline-item"><a target="_blank" href="https://www.twitter.com"><i
+                                    class="fa fa-twitter" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </footer <!-- Bootstrap 4 Scripts -->
+    </footer>
+
+    <!-- Bootstrap 4 Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -96,9 +106,8 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <!--Fancybox scripts-->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="jquery.fancybox.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
