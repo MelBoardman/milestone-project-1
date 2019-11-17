@@ -1,68 +1,49 @@
-Milestone Project 1
+The Gym
 
-Build a website for The Gym
-•	Product Objectives
-    o	Attract and retain customers.
-•	User Needs
-    o	The site's users are gym members and potential members, who want to know more about the gym and its procedures.
+The brief is to design a static website to present useful information to others using all the technology we have learnt to date on the Full Stack Developer Code Institue Course. (HTML, CSS and bootstrap)
+
+I have decided to produce a website for a fictitious Gym. I imagine this to be a small, independant City Centre Gym.... The Gym.
+
+The site owners aim is to attract and retain customers/users. The site users want data presented in a way that helps them to achieve their goals.
 
 UX
 
-SCOPE (CONTENT REQUIREMENTS - WHAT PEOPLE WILL VISIT THE SITE TO FIND OUT)
-•	Gym Information (primarily for attracting new customers)
-    o	About (ethos)
-    o	Aims (how it differs from competitors)
-    o	Unique Selling point (USP)
-•	Opening Hours
-•	Contact Information
-•	Class information
-•	Class timetable
-•	Membership Options
-•	Location information 
+See '/assets/milestone-project-1-planning-doc.docx' for information on the UX design process and wireframes etc...
 
-STRATEGY (WHAT WILL BE ON EACH PAGE AND HOW TO NAVIGATE THE SITE)
+User stories 
 
-•	Home page (Fun, attractive., retain interest, contain most things users are looking for.)
-    o	Gym images – possible image carrousel
-        	CTA – take to gallery page
-    o	USP - What makes this Gym special. Just few sentences
-        	CTA – join our Gym - About
-    o	Contact information and opening hours
-        	Location Information 
-        	CTA – take to Contact us page
+Jeff
+Jeff is new to the area and looking for a local gym. He is interested in location, opening times and membership costs.  
+    
+    Jeff can find the address and location map easily on the 'Home' page. He can also see a larger map on the 'contact' page.
+    From the 'Home' page he can get a feel for the Gym and select the find out more button to link to the 'About' page where he will find all the Membership options.
 
-•	About
-    o	Membership options 
-    o	Class information
-    o	Downloadable Class timetable
+Alice
+Alice is already a member of the Gym. She wants to cancel a class she is booked on to and needs to get the phone number.
 
-•	Gallery
-    o	Images of people working out
-        	Use Fancy box
-        	Maybe add a CTA to Membership
-    o	Videos (optional)
+    The phone number is included in the footer of every page. It is also detailed on the 'Home' page and the 'Contact' page. It is importatnt that this information is very easy for a User to find.
 
-•	Contact Information
-    o	Manager details
-    o	Phone number
-    o	Email address
-    o	Location information Embedded map
-    o	Ask us / get in touch form – email phone number etc.. (include check for correct information, however, does not need to be functional)  
+Fred
+Fred is looking at switching Gyms as his has increased their prices. He is very keen on classes and wants to know what is available and fits in with his schedule.
 
+    Fred can easily find class information and a downloadable timetable on the 'About' page. This can be accessed from the Nav bar or the 'find out more' button on the 'Home' page.
 
-Navigation – Nav bar with links to all pages on each page.
+Grace
+Grace has heard about the gym from a friend but wants to see more before she decides if it is for her.
 
-See /assets/milestone-project-1-planning-doc.docx for information on the UX design process and wireframes etc
+    A Gallery page is included to showcase people using the gym and its equipment and enjoying the classes.
+    This can be accessed from the Menu and a button below the image carosel on the 'Home' page. Hopefully these images will back up what her friend has told her and give her the confidence to give The Gym a try. 
+
 
 FEATURES
     Navbar
-        Allow users to navigate to each page of the site. This is the same on each page aside from the active page setting. I utilized bootstrap navbar components to construct this. 
+        Allow users to navigate to each page of the site. This is the same on each page aside from the active page setting. I utilized bootstrap navbar components and CSS to construct this. 
 
     Home page
         The aim is for this page to be attactive and keep the user interested. So at the top I added an image carosel, using bootstrap.
         https://getbootstrap.com/docs/4.3/components/carousel/ (with indicators)
         
-        below this I added a button link to the Gallery page - This button is not a primary focus of this page and therefore is smaller and is the same colour as the background until hovered over.  
+        Below this I added a button link to the Gallery page - This button is not a primary focus of this page and therefore is smaller and is the same colour as the background until hovered over.  
       
         Next I wanted to give a snippit of information about the gym to give the user a feel for it without including to much information. Then the button below this takes the user to the about page where they can find information about the membership options and classes.
 
@@ -80,7 +61,7 @@ FEATURES
         I was initially going to include the timetable on this page but during development I decided that this works better as a PDF. Therefore the button below the class information opens the PDF in another window. 
 
     Gallery
-        I decided to include a gallery page with all the images accross the site and some additional  to motivate and encourage exisiting and new members. I have used fancybox to create this. 
+        I decided to include a gallery page with all the images accross the site and some additional to motivate and encourage exisiting and new members. I have used fancybox to create this. http://fancyapps.com/fancybox/3/ 
         
         A future enhancement here could be to display these a little better and perhaps add some videos. 
 
@@ -93,20 +74,28 @@ FEATURES
 
 
 Contents
+
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
 ...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
+
 Features Left to Implement
 Another feature idea
+
 Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-JQuery 
-The project uses JQuery to simplify DOM manipulation.
+
+The site was developed with HTML and CSS3 using Microsoft Visual Studio Code.
+Bootstrap4  https://getbootstrap.com/ was used to create structure, navigation, forms and buttons.
+Fancybox    http://fancyapps.com/fancybox/3/  was used to display images in the Gallery page.
+fontawesome https://fontawesome.com/  was used to create the social media Icons.
+
+
 
 TESTING
+
+https://validator.w3.org/ was used to determine any issues in the code.
 
 **Create validation plan spreadsheet to go through each feature/function and expected outcome. Test in each different screensize and complete. 
 
@@ -124,9 +113,7 @@ Try to submit the empty form and verify that an error message about the required
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them
 DEPLOYMENT
 
 For this project I have used GitHub pages to deploy the site.
