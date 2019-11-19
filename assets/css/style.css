@@ -5,7 +5,7 @@ body {
     font-family: 'Rubik', sans-serif;
 }
   
-}footer {
+footer {
     color:#fff;
     font-family: 'Rubik', sans-serif;
 }
@@ -18,11 +18,7 @@ body {
 }
 
 /*---------------font sizes--------------------
-@media screen and (max-width: 600px) {
-    h1{
-        font-size: 125%;
-    }
-  }*/
+
 
 /*-----------Navbar-------------*/
 .navbar-nav { 
@@ -32,6 +28,10 @@ body {
 }
 .navbar-toggler{
     float: right;
+}
+
+.carousel-item {
+    height:vh;
 }
 
 
@@ -71,7 +71,8 @@ body {
     padding-right: 20px;
 }
 
-/*-----------Gallery--------------*/
+
+
 .gallery-btn {
     text-align: right;
     font-family: 'Rubik', sans-serif;
@@ -86,7 +87,7 @@ body {
     font-weight: 100;
     font-size: 12px;
 }
-/*---About----*/
+
 .contact-btn {
     padding-top: 20px;
 }
@@ -105,11 +106,11 @@ footer {
     font-size: 32px;
 }
 
+/*---------About---------------*/
 /*--------Membership-----------*/
 .membership {
     text-align: center; 
 } 
-
 
 .membership:hover {
     text-align: center;
@@ -117,15 +118,41 @@ footer {
     color:#000;
 }
 
-
+/*-----------class info--------*/
 .class-info:hover {
     text-align: center;
     background-color: aqua;
     color:#000;
 }
+/*-----------Timetable--------*/
+@media screen and (max-width: 600px) {
+    .timetable {
+        visibility: hidden;
+        display:none;
+    }
+  }*/
 
-  
+.timetable {
+    text-align: center;
+    left:50%;
+    width:100%;
+    padding:15px;
+}
 
+table {
+    border-spacing: 5px;
+    border-color: #fff;
+    border:2px solid;
+    width:100%;
+   
+}
+
+.timetable-cell {
+    border-color: #fff;
+    border:2px solid;
+}
+
+/*------------Gallery------------*/
 .gallery-img img {
   border: 1px solid #ddd; /* Gray border */
   border-radius: 4px;  /* Rounded border */
@@ -137,6 +164,7 @@ footer {
 .gallery-img img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 } 
+
 
 /* Embedded map*/
 #mapcanvas {
