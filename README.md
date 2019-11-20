@@ -16,17 +16,17 @@ See '/assets/milestone-project-1-planning-doc.docx' for information on the UX de
 Jeff is new to the area and looking for a local gym. He is interested in location, opening times and membership costs.  
     
 - Jeff can find the address and location map easily on the 'Home' page. He can also see a larger map on the 'contact' page.
-- From the 'Home' page he can get a feel for the Gym and select the find out more button to link to the 'About' page where he will find all the Membership options.
+- From the 'Home' page he can get a feel for the Gym and select the 'find out more' button to link to the 'About' page where he will find all the Membership options.
 
 #### Alice
 Alice is already a member of the Gym. She wants to cancel a class she is booked on to and needs to get the phone number.
 
-- The phone number is included in the footer of every page. It is also detailed on the 'Home' page and the 'Contact' page. It is importatnt that this information is very easy for a User to find.
+- The phone number is included in the footer of every page. It is also detailed on the 'Home' page and the 'Contact' page. It is important that this information is very easy for a User to find.
 
 #### Fred
 Fred is looking at switching Gyms as his has increased their prices. He is very keen on classes and wants to know what is available and fits in with his schedule.
 
-- Fred can easily find class information and a downloadable timetable on the 'About' page. This can be accessed from the Nav bar or the 'find out more' button on the 'Home' page.
+- Fred can easily find class information and view and download the class timetable on the 'About' page. This can be accessed from the Nav bar or the 'find out more' button on the 'Home' page.
 
 #### Grace
 Grace has heard about the gym from a friend but wants to see more before she decides if it is for her.
@@ -45,7 +45,7 @@ Grace has heard about the gym from a friend but wants to see more before she dec
 
 - Below this I added a button link to the Gallery page - This button is not a primary focus of this page and therefore is smaller and is the same colour as the background until hovered over.  
 
-- Next I wanted to give a snippit of information about the gym to give the user a feel for it without including to much information. Then the button below this takes the user to the about page where they can find information about the membership options and classes.
+- Next I wanted to give a snippit of information about the gym to give the user a feel for it without including too much information. Then the button below this takes the user to the 'About' page where they can find information about the membership options and classes.
 
 - It was important for the user to find the information that they are after as quickly as possible and so I have included the location and contact information on this page also. 
 
@@ -56,7 +56,7 @@ Grace has heard about the gym from a friend but wants to see more before she dec
 - There are 3 membership options and beneath these I have added a button that leads to the contact us page. A future enhancement would be to have the contact us form as a pop up from this button.
 
 - Below this is the Class information. This lists the classes and information about each one.
-- I was initially going to include the timetable on this page but during development I decided that this works better as a PDF. Therefore the button below the class information opens the PDF in another window. 
+- I have included the timetable on this page but decided that it should not display on smaller devices as the formatting was poor. Therefore there is a button that allows a PDF download on smaller devices. I have also included the option for the user to download the PDF on larger devices. 
 
 ### Gallery
 - I decided to include a gallery page with all the images accross the site and some additional to motivate and encourage exisiting and new members. I have used fancybox to create this. http://fancyapps.com/fancybox/3/ 
@@ -70,11 +70,14 @@ Grace has heard about the gym from a friend but wants to see more before she dec
 - Contact form.
 
 ### Features Left to Implement
-Another feature idea
+- Add a pop out form from the 'Find out more' button on the 'Home' page.
+- Improve the Timetable on the 'About'. Make more interactive. Have the class information appear when the class is hovered on on the timetable. 
+- Make form function.
+-Improve Gallery Page: Make images display more stylishly and add videos.
 
 ### Technologies Used
 
-The site was developed with HTML and CSS3 using Microsoft Visual Studio Code.
+The site was developed with HTML5 and CSS3 using Microsoft Visual Studio Code.
 Bootstrap4  https://getbootstrap.com/ was used to create structure, navigation, forms and buttons.
 Fancybox    http://fancyapps.com/fancybox/3/  was used to display images in the Gallery page.
 fontawesome https://fontawesome.com/  was used to create the social media Icons.
@@ -88,20 +91,8 @@ https://www.embedgooglemap.co.uk I have left these as is as this is not my code.
 
 Throughout developement I was checking my code to see if it performed as I was expecting. 
 
-**Create validation plan spreadsheet to go through each feature/function and expected outcome. Test in each different screensize and complete. 
+**Create validation plan spreadsheet to go through each feature/function and expected outcome. Test in each different screensize and complete and Add validation spreadsheet to GIT Repository.
 
-**Add validation spreadsheet to GIT Repository.
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-Contact form: 
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them
 
 ## DEPLOYMENT
 
@@ -119,15 +110,20 @@ To view the site offline all the files and folder structure located within the o
 
 ## CREDITS
 
-Content
-The text for section Y was copied from the Wikipedia article Z
+### Content
+The text for The About Page Kettlebell section is taken from https://www.webmd.com/fitness-exercise/a-z/kettlebell-workout
+- You’ll work up a sweat doing a series of fast paced cardio and strength-training moves like kettlebell swings, lunges, shoulder presses, and push-ups.
 
+ The text for The About Page Yoga section is taken from https://www.nhs.uk/live-well/exercise/guide-to-yoga/ -->
+- yoga is a safe and effective way to increase physical activity, especially strength, flexibility and balance.
 
+The text for The About Page Pilates section is taken from: https://www.nhs.uk/live-well/exercise/guide-to-pilates/
+- strengthen the body in an even way, with particular emphasis on core strength to improve general fitness and wellbeing.
 
 ###  Media
 
 As this is not a fully functioning site I just selected images that i liked from a google image search.
-For a commercial site i would find images that are free to use and reference accordingly.
+For a commercial site I would find images that are free to use and reference accordingly.
 
 The photos used in this site were obtained from ...
 
