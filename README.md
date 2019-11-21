@@ -91,6 +91,7 @@ https://www.embedgooglemap.co.uk I have left these as is as this is not my code.
 
 Throughout developement I was checking my code to see if it performed as I was expecting. 
 
+
 **Create validation plan spreadsheet to go through each feature/function and expected outcome. Test in each different screensize and complete and Add validation spreadsheet to GIT Repository.
 
 
