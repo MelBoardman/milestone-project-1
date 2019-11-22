@@ -138,7 +138,7 @@ image3
 https://o2fitnessclubs.com/wp-content/uploads/2018/10/Group-Fitness-Instructor.jpg
 
 image4
-https://shawglobalnews.files.wordpress.com/2018/02/people-working-out.jpg?quality=70&strip=all&w=720&h=480&crop=1
+https://cdn-images-1.medium.com/max/1200/1*XVs_x4W6U_0ze9OD3Fi6Ww.jpeg 
 
 image5
 https://s3-eu-central-1.amazonaws.com/evohp/wp-content/uploads/sites/2/2017/07/13095936/EVO_July_banner_27.jpg 

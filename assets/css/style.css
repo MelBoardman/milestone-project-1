@@ -17,6 +17,10 @@ footer {
     margin:0;
 }
 
+section {
+    margin: 50px 50px;
+}
+
 /*-----------Navbar-------------*/
 .navbar-nav { 
     text-align: right;
@@ -64,8 +68,10 @@ footer {
 }
 
 /*-------Home----------*/
+@media screen and (min-width: 600px) {
 .carousel-item {
-    height:vh;
+    height:74vh;
+}
 }
 
 .gallery-btn {
@@ -126,6 +132,7 @@ footer {
         visibility: hidden;
         display:none;
     }
+ 
   }
 /*----only display on larger devices---*/
 @media screen and (min-width: 600px) {
@@ -139,7 +146,7 @@ footer {
     text-align: center;
     left:50%;
     width:100%;
-    padding:15px;
+    padding:50px;
 }
 
 table {
