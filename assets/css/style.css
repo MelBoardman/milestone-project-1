@@ -1,4 +1,6 @@
 /*----------Colors----------------*/
+
+
 body {
     background-color:#343a40; 
     color:#fff;
@@ -172,7 +174,12 @@ table {
   border: 1px solid #fff;
   border-radius: 4px;
   padding: 5px; 
-  width: 300px;
+  width: 100%;
+  align-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .gallery-img img:hover {
