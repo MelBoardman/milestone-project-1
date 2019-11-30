@@ -89,11 +89,11 @@ https://validator.w3.org/ was used to determine any issues in the code.
 The only issues remaining in the code are with the embedded map code that was taken from 
 https://www.embedgooglemap.co.uk I have left these as is as this is not my code.
 
-Throughout developement I was checking my code to see if it performed as I was expecting. 
+Throughout the developement I was checking my code to see if it performed as I was expecting. I mostly used Google Chrome for this. I used the developer tools to check and analyse the view, functionality and user experience in different screen sizes and device simulations.
 
+In the final stages of developement I accessed the site using IE, Firefox, Microsoft Edge and checked all the functionality.
 
-**Create validation plan spreadsheet to go through each feature/function and expected outcome. Test in each different screensize and complete and Add validation spreadsheet to GIT Repository.
-
+I also checked the site on my and my partners Mobile devices. I also distributed the link to my family and close friends to assess on their devices. I got some good feedback from this and I am now confident that it has been tested on the majority of screen readers and the majority of popular devices. 
 
 ## DEPLOYMENT
 
@@ -106,7 +106,7 @@ On the settings tab I scrolled down to the 'GitHub Pages' section. In this secti
 As this is a fairly small project with a limited amount of files and content I have only been using the master branch within the github repository. I understand that with more complex sites and data it may be prudent in the future to introduce different branches.
 Therefore the deployed version of the site is identical to the files located within the repository.
 
-To view the site offline all the files and folder structure located within the origin master branch can be downloaded and placed in a folder and viewed offline. 
+To run locally clone repo directly by passing git clone command, onto the terminal.
 
 
 ## CREDITS
